@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: agorely/hello-world-composite-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          whom-to-greet: 'Mona the Octocat'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
